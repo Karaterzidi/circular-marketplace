@@ -1,0 +1,25 @@
+.nav-tabs .nav-link:hover {
+
+	text-shadow: 0 0 2px rgba(67, 94, 190, .3)
+}
+
+.nav-tabs .nav-link.active {
+	border: none;
+	position: relative;
+	color: #435ebe
+}
+
+.nav-tabs .nav-link.active:after {
+	content: "";
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	height: 2px;
+	background-color: #435ebe;
+	left: 0;
+	box-shadow: 0 2px 5px rgba(67, 94, 190, .5)
+}
+
+.disabled {
+    pointer-events: none;
+}

@@ -1,0 +1,173 @@
+.wrapper {
+  height: 600px;
+  width: 900px;
+  margin: 50px auto;
+  border-radius: 7px 7px 7px 7px;
+
+  /* VIA CSS MATIC https://goo.gl/cIbnS */
+}
+
+.product-img {
+  border: 1px solid #fff;
+  float: left;
+  border-radius: 50px 0px 0px 50px;
+  text-align: center;
+  height: 600px;
+  width: 327px;
+  background-color: #fff; /*6E60D5*/
+  line-height: 580px;
+  border: 3px solid #8474FF;
+}
+
+.product-img img {
+  border-radius: 7px 0 0 7px;
+  vertical-align: middle;
+}
+
+.product-info {
+  float: left;
+  height: 600px;
+  width: 550px;
+  border-radius: 0 10px 10px 0px;
+  background-color: #666;
+  border-right: 3px solid #8474FF;
+  border-top: 3px solid #8474FF;
+  border-bottom: 3px solid #8474FF;
+}
+
+.product-text {
+  height: 300px;
+  width: 400px;
+}
+
+.product-text .test-class1 {
+  border: none;
+  width: 400px;
+  border-bottom: 3px solid #6E60D5;
+  margin: 0 0 0 38px;
+  margin-top: 52px;
+  font-size: 26px;
+  color: #474747;
+  font-weight: normal;
+  background: none;
+  color: #fff
+}
+
+.product-text h3 {
+  margin: 0 0 47px 38px;
+  padding-top: 5px;
+  font-size: 13px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #d2d2d2;
+  letter-spacing: 0.2em;
+}
+
+.test-class {
+  border: none;
+  border-bottom: 2px solid #6E60D5;
+  padding-bottom: 3px;
+  margin: 0 0 0 38px;
+  width: 300px;
+  color: #8d8d8d;
+  line-height: 1.7em;
+  font-size: 16px;
+  font-weight: lighter;
+  overflow: hidden;
+  background: none;
+  color: #fff
+}
+.dollar{
+  color: white
+}
+.test-class3 {
+  border: none;
+  border-bottom: 1px solid #6E60D5;
+  padding-bottom: 2px;
+  margin: 40px 0 0 38px;
+  width: 70px;
+  color: #fff;
+  line-height: 1.7em;
+  font-size: 19px;
+  font-weight: normal;
+  overflow: hidden;
+  background: none;
+  color: #fff
+}
+
+
+.product-price-btn {
+  height: 103px;
+  width: 327px;
+  margin-top: 17px;
+  position: relative;
+}
+
+.product-price-btn button {
+  float: right;
+  display: inline-block;
+  height: 50px;
+  width: 176px;
+  margin: 0 40px 0 16px;
+  box-sizing: border-box;
+  border: transparent;
+  border-radius: 60px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  color: #ffffff;
+  background-color: #6E60D5;
+  cursor: pointer;
+  outline: none;
+}
+
+.product-price-btn button:hover {
+  background-color: #79b0a1;
+}
+
+
+.delete-class form{
+  text-align: right;
+  margin-right: 10%;
+  margin-bottom: 5%;
+}
+.delete-class form button{
+  background: red;
+  border-radius: 50px;
+  width: 176px;
+  height: 50px;
+  font-size: 13px;
+  border: none;
+  font-family: 'Raleway', sans-serif;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+.delete-class form button:hover{
+  background: black;
+  color: #fff;
+}
+.img-input{
+  padding-top: 15px;
+  padding-left: 38px;
+  padding-bottom: 35px;
+}
+
+.status-input{
+  padding-left: 38px;
+  padding-right: 38px;
+  margin-bottom: 10px;
+}
+.status-input select{
+  background-color: #6E60D5;
+  color: #fff;
+  outline: none;
+  text-align: center
+}
+.status-input select option{
+  background-color: #DAD9E0;
+  color: #222;
+  outline: none
+}

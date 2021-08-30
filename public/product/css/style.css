@@ -1,0 +1,13 @@
+.img-edit {
+    position: absolute;
+    font-size: 25px;
+    background-color: red;
+    padding: 0px;
+    border: none;
+    bottom: 10px;
+    right: 20px;
+    border-radius: 50%;
+    width: 40px;
+    outline: none;
+    transform: rotate(45deg)
+}
